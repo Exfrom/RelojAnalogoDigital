@@ -34,5 +34,5 @@ function agregarCeros(tiempo) {
     return tiempo < 10 ? '0' + tiempo : tiempo;
 }
 
-setInterval(actualizarRelojAnalogico, 1000); // Actualizar reloj analógico cada segundo
-setInterval(actualizarRelojDigital, 1000); // Actualizar reloj digital cada segundo
+setInterval(actualizarRelojAnalogico, 1); // Actualizar reloj analógico cada segundo
+setInterval(actualizarRelojDigital, 1); // Actualizar reloj digital cada segundo

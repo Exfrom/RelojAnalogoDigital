@@ -92,8 +92,10 @@ body {
 
 /* Reloj digital */
 .reloj-digital {
-    position: absolute;
-    top: 50%; /* Ajusta la posición vertical para que esté en el centro vertical del reloj análogo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px; /* Ajusta la posición vertical para que esté en el centro vertical del reloj análogo */
     left: calc(50% - 100px); /* Ajusta la posición horizontal para que esté centrado horizontalmente */
     background-color: #b3a6a6; /* Color de fondo del reloj digital */
     color: #070505; /* Color del texto del reloj digital */
